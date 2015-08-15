@@ -5,4 +5,4 @@ path:
 node:
   name: ${HOSTNAME}
 cluster:
-  name: ${ESCLUSTER}
+  name: ${ESCLUSTER:cluster}
