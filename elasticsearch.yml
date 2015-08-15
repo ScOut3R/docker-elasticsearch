@@ -1,0 +1,8 @@
+path:
+  data: /data/data
+  logs: /data/log
+  work: /data/work
+node:
+  name: ${HOSTNAME}
+cluster:
+  name: ${ESCLUSTER}

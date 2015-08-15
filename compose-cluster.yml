@@ -1,0 +1,26 @@
+es1:
+  build: .
+  hostname: "es1"
+  ports:
+    - "9200"
+    - "9300"
+  environment:
+    - ESCLUSTER=estest
+
+es2:
+  build: .
+  hostname: "es2"
+  ports:
+    - "9200"
+    - "9300"
+  environment:
+    - ESCLUSTER=estest
+
+es3:
+  build: .
+  hostname: "es3"
+  ports:
+    - "9200"
+    - "9300"
+  environment:
+    - ESCLUSTER=estest
