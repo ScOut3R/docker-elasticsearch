@@ -6,3 +6,13 @@ node:
   name: ${HOSTNAME}
 cluster:
   name: ${ESCLUSTER:cluster}
+cloud:
+  k8s:
+    servicedns: ${SERVICE_DNS:""}
+discovery:
+  type: ${DISCOVERY_TYPE:zen}
+http:
+  enabled: ${HTTP:true}
+node:
+  data: ${DATA:true}
+  master: ${MASTER:true}
